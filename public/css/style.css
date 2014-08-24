@@ -17,20 +17,21 @@ body{
     left:0;
     right:0;
     bottom:0;
-    background-color:#33cb98; /* change if the mask should have another color then white */
-    z-index:99; /* makes sure it stays on top */
+    background-position: center;
+    background-size: 80%;
+    background-image:url("../images/load1.gif"); /* change if the mask should have another color then white */
 }
 
 #status {
-    width:400px;
-    height:300px;
+    width:800px;
+    height:600px;
     position:absolute;
     left:50%; /* centers the loading animation horizontally one the screen */
-    top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url("../images/loader.gif"); /* path to your loading animation */
+    top:50%; /* centers the loading animation vertically one the screen *
+    background-image:url("../images/loading4.gif"); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
-    margin:-200px 0 0 -200px; /* is width and height divided by two */
+    margin:-400px 0 0 -300px; /* is width and height divided by two */
 }
 
 .header{
