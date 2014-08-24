@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style480.css">
 	<link rel="stylesheet" type="text/css" href="css/style320.css">
 	<link href='http://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 		  $("#flip").click(function(){
@@ -20,6 +20,11 @@
 	</script>
 </head>
 <body>
+	<!-- Preloader -->
+	<div id="preloader">
+	    <div id="status">&nbsp;</div>
+	</div>
+	
 	<div class="header">
 		<div class="logo">
 			<p>Royal <span>Tulip</span></p>
@@ -27,11 +32,11 @@
 		<div id="flip"><p>Menu</p></div>
 		<nav id="nav">
 			<ul>
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Plans</a></li>
-				<li><a href="#">Contact</a></li>
+				<a href="#"><li class="active">Home</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Services</li></a>
+				<a href="#"><li>Plans</li></a>
+				<a href="#"><li>Contact</li></a>
 			</ul>
 		</nav>
 	</div>
@@ -96,8 +101,20 @@
 			<h3>- Lorem ipsum</h3>
 		</div>
 		<footer>
-			<p>Design By <a href="#"> Ankit Chavan</a></p>
+			<p>Design By <a href="http://www.ankitchavan.com" target="_blank"> Ankit Chavan</a></p>
 		</footer>
 	</div><!-- Home -->
+
+	<!-- Preloader -->
+	<script type="text/javascript">
+		//<![CDATA[
+			$(window).load(function() { // makes sure the whole site is loaded
+				$('#status').fadeOut(); // will first fade out the loading animation
+				$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+				$('body').delay(350).css({'overflow':'visible'});
+			})
+		//]]>
+	</script>
+
 </body>
 </html>

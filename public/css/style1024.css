@@ -2,10 +2,20 @@
 
 	*{
 		font-size: 17px;
+		-webkit-padding-start:0;
+		-webkit-margin-before:0;
 	}
 
 	.logo, nav{
 		height: 75px;
+	}
+
+	.logo{
+		width: 45%;
+	}
+
+	nav{
+		width: 55%;
 	}
 
 	.logo p{
@@ -21,7 +31,7 @@
 
 	nav ul li{
 		font-size: 18px;
-		padding: 7% 3.5%;
+		padding: 5% 3%;
 	}
 
 	.intro h2{

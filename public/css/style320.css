@@ -4,13 +4,17 @@
 		font-size: 14px;
 	}
 
+	.intro .btn{
+		margin: 4% auto;
+	}
+
 	.links {
 		margin-top: 10%;
 		margin-bottom: 10%;
 	}
 
-	.testimonials:after{
-		top: -206px;
+	.testimonials h1{
+		font-size: 24px;
 	}
 
 	.testimonials h3{

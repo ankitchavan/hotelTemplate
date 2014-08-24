@@ -12,14 +12,6 @@
 		font-size: 30px;
 	}
 
-	.testimonials:after{
-		top: -202px;
-	}
-
-	.testimonials h1{
-		padding-top: 10%;
-	}
-
 	.testimonials p{
 		width: 90%;
 		margin-left: 5%;
