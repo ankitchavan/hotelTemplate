@@ -1,0 +1,22 @@
+@media(max-width:1280px){
+
+	*{
+		font-size: 18px;
+	}
+
+	.logo p{
+		font-size: 38px;
+		padding-left: 8%;
+	}
+
+	nav ul li{
+		font-size: 19px;
+		padding: 6% 3.3%;
+	}
+
+	.intro p{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}

@@ -1,0 +1,36 @@
+@media(max-width:1024px){
+
+	*{
+		font-size: 17px;
+	}
+
+	.logo, nav{
+		height: 75px;
+	}
+
+	.logo p{
+		font-size: 35px;
+		padding-left: 8%;
+		padding-top: 2%;
+
+	}
+
+	.logo p span{
+		font-size: 40px;
+	}
+
+	nav ul li{
+		font-size: 18px;
+		padding: 7% 3.5%;
+	}
+
+	.intro h2{
+		font-size: 35px;
+	}
+
+	.intro p{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
